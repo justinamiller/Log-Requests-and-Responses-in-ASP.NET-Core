@@ -10,7 +10,7 @@ Though, hopefully, with a bit more modern technology.
 In any case, I need a way to record requests and responses, and in ASP.NET Core the simplest way to do this is using middleware.  Come along with me as we build a new piece of middleware that will automatically record requests and responses!
 
 ### The Setup
-n order to make this demo, we'll need to create a few dummy classes.  First off, let's create a new Employee class with a few properties:
+In order to make this demo, we'll need to create a few dummy classes.  First off, let's create a new Employee class with a few properties:
 ````
 public class Employee
 {
